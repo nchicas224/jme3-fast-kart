@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nifty xmlns="http://nifty-gui.lessvoid.com/nifty-gui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd https://raw.githubusercontent.com/void256/nifty-gui/1.4/nifty-core/src/main/resources/nifty.xsd">
+    <!-- +++++++++++++++++++++++++++++++++++++++ -->
+    <!-- start screen -->
+    <!-- +++++++++++++++++++++++++++++++++++++++ -->
+    <useStyles filename="nifty-default-styles.xml"/>
+    <useControls filename="nifty-default-controls.xml"/>
+    <screen id="start">
+        <layer id="background" childLayout="center">
+            <image filename="Interface/start-background.jpg"/>
+        </layer>
+        <layer id="foreground" childLayout="vertical">
+            <panel id="panel_top" height="25%" width="75%" align="center" childLayout="center">
+                <text text="Welcome to Fast Kart!" font="Interface/Fonts/Arial.fnt" width="100%" height="100%"/>
+                
+            </panel>
+            <panel id="panel_mid" height="50%" width="75%" align="center" childLayout="center">
+                
+            </panel>
+            <panel id="panel_bottom"
+                    height="40%" width="80%"
+                    align="center" childLayout="vertical">
+
+               <control name="label"
+                        text="Thank you for playing my very first game ever!  
+Use keyboard keys: U, H, J, and L to control your kart.  
+Keys U and J are 'Forward' and 'Reverse.'  
+Keys H and K are 'Left' and 'Right'. You can also press and hold the Left Mouse Button to control your camera.  
+Please select your Kart color below and the game will start!  
+Otherwise, press ESC to exit. Have fun!"
+                        wrap="true"
+                        width="100%"
+                        height="100%"
+                        align="center"
+                        valign="center"/>
+
+               <panel childLayout="horizontal"
+                      width="100%" height="50px"
+                      align="center" valign="center"
+                      spacing="20px">
+                 <control name="button"
+                          id="redKartStart"
+                          label="Red Kart"
+                          interactOnClick="selectedModelRed()"/>
+                 <control name="button"
+                          id="yellowKartStart"
+                          label="Yellow Kart"
+                          interactOnClick="selectedModelYellow()"/>
+               </panel>
+            </panel>
+        </layer>
+    </screen>
+</nifty>
