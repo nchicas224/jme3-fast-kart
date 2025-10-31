@@ -106,19 +106,10 @@ Assets, textures, and models used in this project are sourced from publicly avai
 ---
 
 ## 📸 Screenshots
-
-> *(Add screenshots or demo GIFs here once ready!)*  
-> Example directory:
-> ```
-> assets/screenshots/
-> ├── title-screen.png
-> ├── kart-race-track.png
-> └── water-reflection-demo.png
-> ```
-
-Example Markdown usage:
-```markdown
-![Kart Screenshot](assets/screenshots/kart-race-track.png)
+```
+![Kart Screenshot](assets/screenshots/screenshot-1.jpg)
+![Kart Screenshot](assets/screenshots/screenshot-2.jpg)
+![Kart Screenshot](assets/screenshots/screenshot-3.jpg)
 ```
 
 ---
