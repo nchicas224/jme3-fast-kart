@@ -107,9 +107,9 @@ Assets, textures, and models used in this project are sourced from publicly avai
 
 ## 📸 Screenshots
 ```
-![Kart Screenshot](assets/screenshots/screenshot-1.jpg)
-![Kart Screenshot](assets/screenshots/screenshot-2.jpg)
-![Kart Screenshot](assets/screenshots/screenshot-3.jpg)
+![Kart Screenshot](https://github.com/nchicas224/jme3-fast-kart/blob/main/assets/screenshots/screenshot-1.jpeg)
+![Kart Screenshot](https://github.com/nchicas224/jme3-fast-kart/blob/main/assets/screenshots/screenshot-2.jpeg)
+![Kart Screenshot](https://github.com/nchicas224/jme3-fast-kart/blob/main/assets/screenshots/screenshot-3.jpeg)
 ```
 
 ---
